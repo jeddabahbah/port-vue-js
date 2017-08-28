@@ -3,7 +3,8 @@
     <h1>{{ msg }}</h1>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6 jeddWork">
+
+      <div class="col-lg-4 col-md-4 col-sm-6 jeddWork">
           <a class="image-link effect-1" data-fancybox href="https://www.youtube.com/watch?v=9gcut8x2TUw" title="">
             <figure class="image-holder">
               <img class="image-holder-image" src="../assets/thumbnail/1.png" alt="" />
@@ -15,6 +16,18 @@
             </figure>
           </a>
         </div>
+        <!-- <div class="col-lg-4 col-md-4 col-sm-6 jeddWork">
+          <a class="image-link effect-1" data-fancybox href="https://www.youtube.com/watch?v=9gcut8x2TUw" title="">
+            <figure class="image-holder">
+              <img class="image-holder-image" src="../assets/thumbnail/1.png" alt="" />
+              <figcaption class="image-holder-description">
+                <h2>CUBE RGB 8x8x8</h2>
+                <p class="detailWork">Arduino/VS2013</p>
+                <button class="btn btnToSite" data-fancybox href="https://www.youtube.com/watch?v=9gcut8x2TUw">View video</button>
+              </figcaption>
+            </figure>
+          </a>
+        </div> -->
 
         <div class="col-lg-4 col-md-4 col-sm-6 jeddWork">
           <a class="image-link effect-1" href="http://mud-brand.com/" target="_blank" title="">
@@ -52,6 +65,12 @@
           </figure>
         </a>
         </div>
+<!-- 
+        <ul id="example-1">
+          <li v-for="item in items">
+            {{ item.message }}
+          </li>
+        </ul> -->
 
       </div>
     </div>
@@ -90,6 +109,16 @@ export default {
     }
   }
 }
+
+// var example1 = new Vue({
+//   el: '#example-1',
+//   data: {
+//     items: [
+//       { message: 'Foo' },
+//       { message: 'Bar' }
+//     ]
+//   }
+// })
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
