@@ -1,12 +1,5 @@
-FROM mhart/alpine-node:latest
+FROM nginx:latest
 MAINTAINER jessada.pps@gmail.com
-ADD package.json /tmp/package.json
-RUN cd /tmp && npm install
-RUN mkdir -p /opt/app && cp -a /tmp/node_modules /opt/app/
-
-WORKDIR /opt/app
-ADD . /opt/app
-
+COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
+COPY conf/nginx-site.conf /etc/nginx/conf.d/default.conf
 EXPOSE 5000
-
-CMD ["npm", "start"]
