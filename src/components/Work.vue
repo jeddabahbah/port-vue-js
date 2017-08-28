@@ -60,17 +60,17 @@
     <div class="footer">
     <h1 class="contact">{{ contactmsg }}</h1>
       <div class="container">
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <i class="fa fa-mobile fa-3x jeddSocial" aria-hidden="true"></i><br><br>
             <h4>(+66)62-448-8244</h4>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <i class="fa fa-facebook fa-3x jeddSocial" aria-hidden="true"></i><br><br>
             <h4><a href="https://www.facebook.com/jeddabahbah">Jessada Preprasat</a></h4>
         </div>
 
-        <div class="col-lg-4 col-md-4 col-sm-6">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <i class="fa fa-envelope fa-2x jeddSocial" aria-hidden="true"></i><br><br>
             <h4>Jessada.pps@gmail.com</h4>
         </div>
@@ -130,7 +130,8 @@ a:hover {
 /*footer*/
 .footer{
   background-color: #262626;
-  height: 300px;
+  height: auto;
+  padding-bottom: 50px;
   z-index: 0;
 }
 .contact{
@@ -224,6 +225,9 @@ a:hover {
   width: 365px;
   height: 365px;
   background-color: #262626;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .jeddWork{
     margin-bottom: 50px;

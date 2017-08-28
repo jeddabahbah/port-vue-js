@@ -48,4 +48,20 @@ export default {
   font-weight: 300;
 }
 
+@media screen and (max-device-width: 375px) {
+.stylefontname{
+  font-size: 25px;
+  font-weight: bold;
+}
+.stylefontpos{
+  font-size: 16px;
+  font-weight: 300;
+}
+.positiontext{
+  text-align: left;
+  margin-top: -120px;
+  margin-left: 100px;
+}
+}
+
 </style>
